@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api
-from germandictservice import query_pons_dictionary, extract_definitions, secret
+from easypeasy import query_pons_dictionary, extract_definitions, secret
 import re
 from os import path
 
